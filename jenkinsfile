@@ -1,0 +1,8 @@
+pipeline{
+    agent any
+    stages{
+        stage("Build"){
+            echo "This is my first pipeline job"
+        }
+    }
+}
